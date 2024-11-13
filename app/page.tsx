@@ -1,5 +1,5 @@
 // pages/index.js
-
+"use client"
 export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center min-h-screen text-center bg-gray-100">
