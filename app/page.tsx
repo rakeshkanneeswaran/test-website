@@ -8,9 +8,15 @@ export default function Home() {
 
       {/* Buy Buttons */}
       <div className="space-x-4">
-        <button className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">Buy Item 1</button>
-        <button className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">Buy Item 2</button>
-        <button className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">Buy Item 3</button>
+        <button className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors" onClick={()=>{
+          alert("button clicked")
+        }}>Buy Item 1</button>
+        <button className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors" onClick={()=>{
+          alert("button clicked")
+        }}>Buy Item 2</button>
+        <button className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors" onClick={()=>{
+          alert("button clicked")
+        }}>Buy Item 3</button>
       </div>
     </div>
   );
